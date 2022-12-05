@@ -8,7 +8,7 @@ MAKE SURE YOU'RE IN FULLSCREEN WINDOWED ELSE IT WILL CRASH!
 You will need C++ Redistributable :
 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
 
-[Join My Discord](https://discord.gg/pwnmy)
+[Join My Discord](https://discord.gg/novacorp)
 
 
 # Features: 
