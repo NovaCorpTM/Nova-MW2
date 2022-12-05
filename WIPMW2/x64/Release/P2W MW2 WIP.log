@@ -1,0 +1,48 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: Two or more files with the name of hook.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\new cheat\mw2-warzone-2-cheat-2022--main\hook.c, ..\new cheat\mw2-warzone-2-cheat-2022--main\hook\src\hook.c.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: Two or more files with the name of trampoline.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\new cheat\mw2-warzone-2-cheat-2022--main\hook\src\trampoline.c, ..\new cheat\mw2-warzone-2-cheat-2022--main\trampoline.c.
+  Camera.cpp
+  dllmain.cpp
+C:\Users\blkad\Desktop\WIPMW2\new cheat\mw2-warzone-2-cheat-2022--main\kiero.h(71,74): warning C4042: 'function': has bad storage class
+  Entity.cpp
+  ESP.cpp
+  Global.cpp
+C:\Users\blkad\Desktop\WIPMW2\new cheat\mw2-warzone-2-cheat-2022--main\kiero.h(71,74): warning C4042: 'function': has bad storage class
+  Hook.cpp
+C:\Users\blkad\Desktop\WIPMW2\new cheat\mw2-warzone-2-cheat-2022--main\kiero.h(71,74): warning C4042: 'function': has bad storage class
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_dx12.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  kiero.cpp
+C:\Users\blkad\Desktop\WIPMW2\new cheat\mw2-warzone-2-cheat-2022--main\kiero.h(71,74): warning C4042: 'function': has bad storage class
+  Menu.cpp
+  Render.cpp
+  Settings.cpp
+  Vector2D.cpp
+  Generating Code...
+  hook.c
+  buffer.c
+  hde32.c
+  hde64.c
+  hook.c
+  trampoline.c
+  trampoline.c
+  Generating Code...
+x64\Release\Hook.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Release\hook.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Release\trampoline.obj : warning LNK4042: object specified more than once; extras ignored
+dllmain.obj : error LNK2019: unresolved external symbol "void __cdecl d3d12hook::release(void)" (?release@d3d12hook@@YAXXZ) referenced in function "unsigned long __cdecl onAttach(void)" (?onAttach@@YAKXZ)
+Global.obj : error LNK2019: unresolved external symbol "long __cdecl d3d12hook::hookPresentD3D12(struct IDXGISwapChain3 *,unsigned int,unsigned int)" (?hookPresentD3D12@d3d12hook@@YAJPEAUIDXGISwapChain3@@II@Z) referenced in function "void __cdecl Globals::HooksInit(void)" (?HooksInit@Globals@@YAXXZ)
+Global.obj : error LNK2019: unresolved external symbol "void __cdecl d3d12hook::hookkDrawInstancedD3D12(struct ID3D12GraphicsCommandList *,unsigned int,unsigned int,unsigned int,unsigned int)" (?hookkDrawInstancedD3D12@d3d12hook@@YAXPEAUID3D12GraphicsCommandList@@IIII@Z) referenced in function "void __cdecl Globals::HooksInit(void)" (?HooksInit@Globals@@YAXXZ)
+Global.obj : error LNK2019: unresolved external symbol "void __cdecl d3d12hook::hookDrawIndexedInstancedD3D12(struct ID3D12GraphicsCommandList *,unsigned int,unsigned int,unsigned int,int)" (?hookDrawIndexedInstancedD3D12@d3d12hook@@YAXPEAUID3D12GraphicsCommandList@@IIIH@Z) referenced in function "void __cdecl Globals::HooksInit(void)" (?HooksInit@Globals@@YAXXZ)
+Global.obj : error LNK2019: unresolved external symbol "void __cdecl d3d12hook::hookExecuteCommandListsD3D12(struct ID3D12CommandQueue *,unsigned int,struct ID3D12CommandList *)" (?hookExecuteCommandListsD3D12@d3d12hook@@YAXPEAUID3D12CommandQueue@@IPEAUID3D12CommandList@@@Z) referenced in function "void __cdecl Globals::HooksInit(void)" (?HooksInit@Globals@@YAXXZ)
+Global.obj : error LNK2019: unresolved external symbol "long __cdecl d3d12hook::hookSignalD3D12(struct ID3D12CommandQueue *,struct ID3D12Fence *,unsigned __int64)" (?hookSignalD3D12@d3d12hook@@YAJPEAUID3D12CommandQueue@@PEAUID3D12Fence@@_K@Z) referenced in function "void __cdecl Globals::HooksInit(void)" (?HooksInit@Globals@@YAXXZ)
+Global.obj : error LNK2001: unresolved external symbol "long (__cdecl* d3d12hook::oPresentD3D12)(struct IDXGISwapChain *,unsigned int,unsigned int)" (?oPresentD3D12@d3d12hook@@3P6AJPEAUIDXGISwapChain@@II@ZEA)
+Global.obj : error LNK2001: unresolved external symbol "void (__cdecl* d3d12hook::oDrawInstancedD3D12)(struct ID3D12GraphicsCommandList *,unsigned int,unsigned int,unsigned int,unsigned int)" (?oDrawInstancedD3D12@d3d12hook@@3P6AXPEAUID3D12GraphicsCommandList@@IIII@ZEA)
+Global.obj : error LNK2001: unresolved external symbol "void (__cdecl* d3d12hook::oDrawIndexedInstancedD3D12)(struct ID3D12GraphicsCommandList *,unsigned int,unsigned int,unsigned int,int)" (?oDrawIndexedInstancedD3D12@d3d12hook@@3P6AXPEAUID3D12GraphicsCommandList@@IIIH@ZEA)
+Global.obj : error LNK2001: unresolved external symbol "void (__cdecl* d3d12hook::oExecuteCommandListsD3D12)(struct ID3D12CommandQueue *,unsigned int,struct ID3D12CommandList *)" (?oExecuteCommandListsD3D12@d3d12hook@@3P6AXPEAUID3D12CommandQueue@@IPEAUID3D12CommandList@@@ZEA)
+Global.obj : error LNK2001: unresolved external symbol "long (__cdecl* d3d12hook::oSignalD3D12)(struct ID3D12CommandQueue *,struct ID3D12Fence *,unsigned __int64)" (?oSignalD3D12@d3d12hook@@3P6AJPEAUID3D12CommandQueue@@PEAUID3D12Fence@@_K@ZEA)
+C:\Users\blkad\Desktop\WIPMW2\WIPMW2\x64\Release\P2W MW2 WIP.dll : fatal error LNK1120: 11 unresolved externals
